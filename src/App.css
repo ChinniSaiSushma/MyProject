@@ -1,0 +1,366 @@
+.loginPage
+{
+    background: #264653;
+    width:100vw;
+    height:100vh;
+     /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+.mainContainer1                                    /*for Home.js */
+{
+   background: white; 
+   width: 100vw;
+   height: 150vh;
+}
+
+.mainContainer2                            /*for DSU.js */
+{
+   background: white; 
+}
+.mainContainer3                         /* for Tasks,messages,more,pagenotfound*/
+{
+   background: white; 
+   height: 90vh;
+}
+
+.mainContainer4                         /* for illegal*/
+{
+   background: white; 
+   height: 100vh;
+}
+.logOut1
+{
+    position: absolute;
+    top:10%;
+    left:20%;
+    background-color: #c2c5aa;
+    border: 15px solid #c2c5aa;
+}
+
+
+/* Pulse.js CSS */
+.mainDiv
+{
+    width: 30vw;
+    height:37vh;
+    background: #f1faee;
+    box-shadow: 0px 0px 15px gray;
+    position: absolute;
+    top:28%;
+    left:35%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid #264653;
+}
+.signIn
+{
+      color:#22223b;
+     text-align: center;
+    font-size: 1.5em;
+    
+}
+.inp1
+{
+ width:225px;
+padding:1.3%;
+margin-left:20%;
+margin-top: 0.5%;
+margin-bottom: 2%;
+}
+.inp1:hover
+{
+    background: #f4f3ee;
+}
+.inp2
+{
+    width:225px;
+    padding:1.3%;
+    margin-left:20%;
+}
+.inp2:hover
+{
+    background: #f4f3ee;
+}
+.pulseBtn
+{
+   text-align: center;
+   padding: 2%;
+}
+.pulseBtn1
+{
+    padding: 1.1%;
+    font-size: 0.8em;
+    background: turquoise;
+}
+.pulseBtn1:hover
+{
+    background: #bcb8b1;
+}
+.remember
+{
+    margin-left: 20%;
+   
+}
+.signUp
+{
+    margin-top: 10%;
+    margin-left: 17% ;
+    color: white;
+}
+.reg
+{
+    color:#ddbea9;
+}
+
+
+/* app.js css
+
+/* background:"#ffedd8"
+background:"#fff1e6" */
+.active
+{
+    background-color: #c2c5aa;
+    border: 15px solid #c2c5aa;
+    color: azure; 
+}
+ul
+{
+    background: #2f3e46;
+    margin-top: 0px;
+    height: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+} 
+li
+{
+    justify-content:space-evenly;
+    padding: 15px;
+    
+}
+.linkColor
+{
+    color: azure;
+}
+.linkColor:hover
+{
+   color:tomato
+}
+.logo
+{
+    width: 250px;
+    height:50px;
+}
+.logOut
+{
+    
+   background-color: aqua;
+   border: 15px solid aqua ;
+   margin-left: 30%;
+}
+
+/* Home.js CSS */
+.title
+{
+   
+    background: #f8f7ff;
+   margin:25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 1.5em;
+  color:#c9184a;
+}
+.title1
+{
+    color:salmon;
+    font-family:'Times New Roman', Times, serif;
+}
+.title2
+{
+    background: #f48c06;
+    margin-top: 0px;
+    height: 8%;
+   font-size: 1.5em;
+   color:#a4133c;
+   font-family:'Times New Roman', Times, serif
+}
+.image
+{
+    width:250px;
+    height:250px;
+    border-radius: 125px;
+    box-shadow: 0 0 25px gray;
+    margin-top: 30px;
+}
+.name
+{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#606c38; 
+}
+.details
+{
+  font-size: 0.8em;
+  text-align: center;
+  color:#6b705c;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.homeContainer
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+table,th,td
+{                                              
+    border:1px solid #f48c06;
+    border-collapse: collapse;
+    
+}
+.homeRow1
+{
+    background:#faedcd;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.homeRow2
+{
+    background:#fefae0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table
+{
+    width: 95%;
+    margin:2%;
+}
+.homeDiv
+{
+    margin-top: 5%;
+    width: 90vw;
+    height: 60vh;
+    border: 2px solid #f48c06;
+}
+.search
+{
+   position: relative;
+   left:67%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.records
+{
+    margin-left:2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* DSU.js CSS */
+
+.dsuBtn
+{
+   text-align: center;
+}
+.btn
+{
+    padding: 1%;
+    background-color: rgb(2, 80, 8);
+}
+.title3
+{
+   
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#dc2f02;
+}
+.dsuRow
+{
+    width:30%;
+    
+}
+.dsuTable
+{
+    border: 2px solid #ffcdb2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.dsuInp
+{
+    width: 85%;
+    margin: 0.8%;
+    padding: 0.5%;
+    text-align: center;
+  
+}
+
+
+/* Tasks.js CSS */
+.tasksTable
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid #83c5be;
+}
+
+
+/* Messages.js CSS */
+.msgTable
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid #5f0f40;
+}
+.msgData
+{
+    text-align: center;
+}
+
+
+/* More.js CSS */
+ .title4
+{
+    background: #d8f3dc;
+    margin-top: 0px;
+    font-size: 1.5em;
+}
+.moreContainer
+{
+    width:90vw;
+    height:75vh;
+    border: 2px solid #d8f3dc;
+    margin:55px;
+    font-size: 1.04em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ .moreName
+{
+    margin-left: 25%;
+}
+.moreName1
+{
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.moreOption
+{
+width: 35vw;
+height:5vh;
+margin-left: 6%;
+}
+.data
+{
+    margin-top: 0px ;
+    margin-left: 38%;
+}
+.inpDate
+{
+    margin-left: 5%;
+}
+.msg{
+ position: absolute;
+ top:65%;
+ left:38%;
+}
+
+.moreBtn
+{
+    text-align: center;
+    margin-top: 10%;
+}
+  
